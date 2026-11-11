@@ -65,7 +65,7 @@ Em vez de focar apenas em linguagens da moda, foco na resolução de problemas. 
 Seja para falar sobre arquitetura de software, desenvolvimento React/C#, ou até sobre fotografia, sinta-se à vontade para me chamar:
 
 <p>
-  <a href="www.linkedin.com/in/joão-fernandes-887b6322a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/joão-fernandes-887b6322a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
   <a href="mailto:jf030626@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.instagram.com/joaofernandes_dev" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 </p>
