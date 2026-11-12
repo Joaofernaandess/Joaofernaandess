@@ -1,0 +1,65 @@
+<svg width="850" height="250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Fundo preto */
+    .bg { fill: #0d1117; }
+    
+    /* Estilo das letras caindo */
+    .matrix-text {
+      font-family: monospace;
+      font-size: 24px;
+      fill: #239120; /* Verde C# */
+      opacity: 0;
+      animation: fall linear infinite;
+    }
+
+    /* Estilo do seu Nome */
+    .title {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 65px;
+      fill: #ffffff;
+      text-shadow: 0px 4px 15px rgba(97, 218, 251, 0.5); /* Brilho azul React */
+    }
+    
+    .subtitle {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      font-weight: 600;
+      font-size: 25px;
+      fill: #61DAFB; /* Azul React */
+    }
+
+    /* Animação de queda */
+    @keyframes fall {
+      0% { transform: translateY(-50px); opacity: 0; }
+      10% { opacity: 0.5; }
+      50% { opacity: 0.1; }
+      100% { transform: translateY(300px); opacity: 0; }
+    }
+
+    /* Tempos de queda diferentes para cada coluna parecer aleatória */
+    .c1 { animation-duration: 3s; animation-delay: 0s; }
+    .c2 { animation-duration: 4s; animation-delay: 1.5s; }
+    .c3 { animation-duration: 2.5s; animation-delay: 0.5s; }
+    .c4 { animation-duration: 3.5s; animation-delay: 2s; }
+    .c5 { animation-duration: 4.5s; animation-delay: 1s; }
+    .c6 { animation-duration: 3.2s; animation-delay: 0.8s; }
+    .c7 { animation-duration: 2.8s; animation-delay: 1.2s; }
+  </style>
+
+  <!-- Retângulo de fundo -->
+  <rect width="100%" height="100%" class="bg" />
+
+  <!-- Letras caindo ao fundo -->
+  <text x="50" y="0" class="matrix-text c1">{"React"}</text>
+  <text x="150" y="0" class="matrix-text c2">SELECT *</text>
+  <text x="250" y="0" class="matrix-text c3">.NET 8</text>
+  <text x="350" y="0" class="matrix-text c4">C#</text>
+  <text x="450" y="0" class="matrix-text c5">Java</text>
+  <text x="550" y="0" class="matrix-text c6">{"Clean"}</text>
+  <text x="650" y="0" class="matrix-text c7">POST</text>
+  <text x="750" y="0" class="matrix-text c1"><div/></text>
+
+  <!-- Textos Principais -->
+  <text x="425" y="130" text-anchor="middle" class="title">João Fernandes</text>
+  <text x="425" y="175" text-anchor="middle" class="subtitle">Software Developer</text>
+</svg>

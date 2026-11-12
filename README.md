@@ -1,4 +1,6 @@
-# Olá! Eu sou o João Fernandes 👋
+<p align="center">
+  <img src="banner-animado.svg" alt="João Fernandes - Software Developer">
+</p>
 
 > **Desenvolvedor Fullstack | Especialista em React & C# .NET | Estudante de Análise e Desenvolvimento de Sistemas**
 
